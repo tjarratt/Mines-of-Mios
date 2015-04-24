@@ -16,6 +16,10 @@
 }
 
 - (NSString *)advance {
+    if (self.messages.count == 0) {
+        return nil;
+    }
+
     NSString *message = [self.messages objectAtIndex:0];
     [self.messages removeObjectAtIndex:0];
     return message;

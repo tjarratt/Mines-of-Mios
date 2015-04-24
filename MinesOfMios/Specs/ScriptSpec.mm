@@ -40,6 +40,16 @@ describe(@"Script", ^{
                 it(@"gives you the second message in the script", ^{
                     message should equal(@"why are you poking me?");
                 });
+
+                context(@"if it script is advanced further", ^{
+                    beforeEach(^{
+                        message = [subject advance];
+                    });
+
+                    it(@"gives you back nil", ^{
+                        message should be_nil;
+                    });
+                });
             });
         });
     });

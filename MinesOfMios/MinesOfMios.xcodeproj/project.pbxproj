@@ -11,16 +11,19 @@
 		F76D147D1AE9C97700CBD7DA /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76D147C1AE9C97700CBD7DA /* Cedar-iOS.framework */; };
 		F76D14801AE9C9C600CBD7DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F76D147E1AE9C9C600CBD7DA /* Info.plist */; };
 		F76D14811AE9C9C600CBD7DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D147F1AE9C9C600CBD7DA /* main.m */; };
-		F76D14831AE9CC3100CBD7DA /* ViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F76D14821AE9CC3100CBD7DA /* ViewControllerSpec.mm */; };
+		F76D14831AE9CC3100CBD7DA /* RootViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F76D14821AE9CC3100CBD7DA /* RootViewControllerSpec.mm */; };
 		F76D14851AE9CCCC00CBD7DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76D14841AE9CCCC00CBD7DA /* UIKit.framework */; };
-		F76D14861AE9CD6B00CBD7DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293C11AE9C1B7007C0A34 /* ViewController.m */; };
-		F76D14871AE9CDBD00CBD7DA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B293DF1AE9C2CB007C0A34 /* ViewController.xib */; };
+		F76D14861AE9CD6B00CBD7DA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293C11AE9C1B7007C0A34 /* RootViewController.m */; };
+		F76D14871AE9CDBD00CBD7DA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B293DF1AE9C2CB007C0A34 /* RootViewController.xib */; };
+		F76D148B1AE9D31200CBD7DA /* Script.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D148A1AE9D31200CBD7DA /* Script.m */; };
+		F76D148C1AE9D31200CBD7DA /* Script.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D148A1AE9D31200CBD7DA /* Script.m */; };
+		F76D148E1AE9D32800CBD7DA /* ScriptSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F76D148D1AE9D32800CBD7DA /* ScriptSpec.mm */; };
 		F7B293BC1AE9C1B7007C0A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293BB1AE9C1B7007C0A34 /* main.m */; };
 		F7B293BF1AE9C1B7007C0A34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293BE1AE9C1B7007C0A34 /* AppDelegate.m */; };
-		F7B293C21AE9C1B7007C0A34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293C11AE9C1B7007C0A34 /* ViewController.m */; };
+		F7B293C21AE9C1B7007C0A34 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293C11AE9C1B7007C0A34 /* RootViewController.m */; };
 		F7B293C71AE9C1B7007C0A34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B293C61AE9C1B7007C0A34 /* Images.xcassets */; };
 		F7B293CA1AE9C1B7007C0A34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B293C81AE9C1B7007C0A34 /* LaunchScreen.xib */; };
-		F7B293E01AE9C2CB007C0A34 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B293DF1AE9C2CB007C0A34 /* ViewController.xib */; };
+		F7B293E01AE9C2CB007C0A34 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B293DF1AE9C2CB007C0A34 /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,18 +32,21 @@
 		F76D147C1AE9C97700CBD7DA /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "../Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
 		F76D147E1AE9C9C600CBD7DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F76D147F1AE9C9C600CBD7DA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F76D14821AE9CC3100CBD7DA /* ViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewControllerSpec.mm; sourceTree = "<group>"; };
+		F76D14821AE9CC3100CBD7DA /* RootViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewControllerSpec.mm; sourceTree = "<group>"; };
 		F76D14841AE9CCCC00CBD7DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F76D14891AE9D31200CBD7DA /* Script.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Script.h; sourceTree = "<group>"; };
+		F76D148A1AE9D31200CBD7DA /* Script.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Script.m; sourceTree = "<group>"; };
+		F76D148D1AE9D32800CBD7DA /* ScriptSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScriptSpec.mm; sourceTree = "<group>"; };
 		F7B293B61AE9C1B7007C0A34 /* MinesOfMios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinesOfMios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B293BA1AE9C1B7007C0A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B293BB1AE9C1B7007C0A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7B293BD1AE9C1B7007C0A34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7B293BE1AE9C1B7007C0A34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F7B293C01AE9C1B7007C0A34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F7B293C11AE9C1B7007C0A34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7B293C01AE9C1B7007C0A34 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F7B293C11AE9C1B7007C0A34 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		F7B293C61AE9C1B7007C0A34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F7B293C91AE9C1B7007C0A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F7B293DF1AE9C2CB007C0A34 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		F7B293DF1AE9C2CB007C0A34 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +75,19 @@
 				F76D147E1AE9C9C600CBD7DA /* Info.plist */,
 				F76D147F1AE9C9C600CBD7DA /* main.m */,
 				F76D14651AE9C95D00CBD7DA /* Images.xcassets */,
-				F76D14821AE9CC3100CBD7DA /* ViewControllerSpec.mm */,
+				F76D14821AE9CC3100CBD7DA /* RootViewControllerSpec.mm */,
+				F76D148D1AE9D32800CBD7DA /* ScriptSpec.mm */,
 			);
 			path = Specs;
+			sourceTree = "<group>";
+		};
+		F76D14881AE9D2DA00CBD7DA /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F76D14891AE9D31200CBD7DA /* Script.h */,
+				F76D148A1AE9D31200CBD7DA /* Script.m */,
+			);
+			name = Domain;
 			sourceTree = "<group>";
 		};
 		F7B293AD1AE9C1B7007C0A34 = {
@@ -97,14 +113,15 @@
 		F7B293B81AE9C1B7007C0A34 /* MinesOfMios */ = {
 			isa = PBXGroup;
 			children = (
+				F76D14881AE9D2DA00CBD7DA /* Domain */,
 				F7B293BD1AE9C1B7007C0A34 /* AppDelegate.h */,
 				F7B293BE1AE9C1B7007C0A34 /* AppDelegate.m */,
 				F7B293C61AE9C1B7007C0A34 /* Images.xcassets */,
 				F7B293C81AE9C1B7007C0A34 /* LaunchScreen.xib */,
 				F7B293B91AE9C1B7007C0A34 /* Supporting Files */,
-				F7B293C01AE9C1B7007C0A34 /* ViewController.h */,
-				F7B293C11AE9C1B7007C0A34 /* ViewController.m */,
-				F7B293DF1AE9C2CB007C0A34 /* ViewController.xib */,
+				F7B293C01AE9C1B7007C0A34 /* RootViewController.h */,
+				F7B293C11AE9C1B7007C0A34 /* RootViewController.m */,
+				F7B293DF1AE9C2CB007C0A34 /* RootViewController.xib */,
 			);
 			path = MinesOfMios;
 			sourceTree = "<group>";
@@ -197,7 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76D14801AE9C9C600CBD7DA /* Info.plist in Resources */,
-				F76D14871AE9CDBD00CBD7DA /* ViewController.xib in Resources */,
+				F76D14871AE9CDBD00CBD7DA /* RootViewController.xib in Resources */,
 				F76D14661AE9C95D00CBD7DA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,7 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7B293CA1AE9C1B7007C0A34 /* LaunchScreen.xib in Resources */,
-				F7B293E01AE9C2CB007C0A34 /* ViewController.xib in Resources */,
+				F7B293E01AE9C2CB007C0A34 /* RootViewController.xib in Resources */,
 				F7B293C71AE9C1B7007C0A34 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F76D14861AE9CD6B00CBD7DA /* ViewController.m in Sources */,
+				F76D148E1AE9D32800CBD7DA /* ScriptSpec.mm in Sources */,
+				F76D148C1AE9D31200CBD7DA /* Script.m in Sources */,
+				F76D14861AE9CD6B00CBD7DA /* RootViewController.m in Sources */,
 				F76D14811AE9C9C600CBD7DA /* main.m in Sources */,
-				F76D14831AE9CC3100CBD7DA /* ViewControllerSpec.mm in Sources */,
+				F76D14831AE9CC3100CBD7DA /* RootViewControllerSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +248,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7B293C21AE9C1B7007C0A34 /* ViewController.m in Sources */,
+				F76D148B1AE9D31200CBD7DA /* Script.m in Sources */,
+				F7B293C21AE9C1B7007C0A34 /* RootViewController.m in Sources */,
 				F7B293BF1AE9C1B7007C0A34 /* AppDelegate.m in Sources */,
 				F7B293BC1AE9C1B7007C0A34 /* main.m in Sources */,
 			);

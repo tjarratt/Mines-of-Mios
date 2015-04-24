@@ -7,26 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F76D14661AE9C95D00CBD7DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76D14651AE9C95D00CBD7DA /* Images.xcassets */; };
+		F76D147D1AE9C97700CBD7DA /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76D147C1AE9C97700CBD7DA /* Cedar-iOS.framework */; };
+		F76D14801AE9C9C600CBD7DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F76D147E1AE9C9C600CBD7DA /* Info.plist */; };
+		F76D14811AE9C9C600CBD7DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D147F1AE9C9C600CBD7DA /* main.m */; };
+		F76D14831AE9CC3100CBD7DA /* ViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F76D14821AE9CC3100CBD7DA /* ViewControllerSpec.mm */; };
+		F76D14851AE9CCCC00CBD7DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76D14841AE9CCCC00CBD7DA /* UIKit.framework */; };
+		F76D14861AE9CD6B00CBD7DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293C11AE9C1B7007C0A34 /* ViewController.m */; };
+		F76D14871AE9CDBD00CBD7DA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B293DF1AE9C2CB007C0A34 /* ViewController.xib */; };
 		F7B293BC1AE9C1B7007C0A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293BB1AE9C1B7007C0A34 /* main.m */; };
 		F7B293BF1AE9C1B7007C0A34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293BE1AE9C1B7007C0A34 /* AppDelegate.m */; };
 		F7B293C21AE9C1B7007C0A34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293C11AE9C1B7007C0A34 /* ViewController.m */; };
 		F7B293C71AE9C1B7007C0A34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B293C61AE9C1B7007C0A34 /* Images.xcassets */; };
 		F7B293CA1AE9C1B7007C0A34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B293C81AE9C1B7007C0A34 /* LaunchScreen.xib */; };
-		F7B293D61AE9C1B7007C0A34 /* MinesOfMiosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293D51AE9C1B7007C0A34 /* MinesOfMiosTests.m */; };
 		F7B293E01AE9C2CB007C0A34 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B293DF1AE9C2CB007C0A34 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F7B293D01AE9C1B7007C0A34 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7B293AE1AE9C1B7007C0A34 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F7B293B51AE9C1B7007C0A34;
-			remoteInfo = MinesOfMios;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F76D14561AE9C95D00CBD7DA /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76D14651AE9C95D00CBD7DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F76D147C1AE9C97700CBD7DA /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "../Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		F76D147E1AE9C9C600CBD7DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76D147F1AE9C9C600CBD7DA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F76D14821AE9CC3100CBD7DA /* ViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewControllerSpec.mm; sourceTree = "<group>"; };
+		F76D14841AE9CCCC00CBD7DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F7B293B61AE9C1B7007C0A34 /* MinesOfMios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinesOfMios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B293BA1AE9C1B7007C0A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B293BB1AE9C1B7007C0A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,21 +40,20 @@
 		F7B293C11AE9C1B7007C0A34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F7B293C61AE9C1B7007C0A34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F7B293C91AE9C1B7007C0A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F7B293CF1AE9C1B7007C0A34 /* MinesOfMiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinesOfMiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7B293D41AE9C1B7007C0A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7B293D51AE9C1B7007C0A34 /* MinesOfMiosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinesOfMiosTests.m; sourceTree = "<group>"; };
 		F7B293DF1AE9C2CB007C0A34 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F7B293B31AE9C1B7007C0A34 /* Frameworks */ = {
+		F76D14531AE9C95D00CBD7DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76D14851AE9CCCC00CBD7DA /* UIKit.framework in Frameworks */,
+				F76D147D1AE9C97700CBD7DA /* Cedar-iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7B293CC1AE9C1B7007C0A34 /* Frameworks */ = {
+		F7B293B31AE9C1B7007C0A34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,11 +63,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F76D14571AE9C95D00CBD7DA /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				F76D147E1AE9C9C600CBD7DA /* Info.plist */,
+				F76D147F1AE9C9C600CBD7DA /* main.m */,
+				F76D14651AE9C95D00CBD7DA /* Images.xcassets */,
+				F76D14821AE9CC3100CBD7DA /* ViewControllerSpec.mm */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
 		F7B293AD1AE9C1B7007C0A34 = {
 			isa = PBXGroup;
 			children = (
+				F76D14841AE9CCCC00CBD7DA /* UIKit.framework */,
+				F76D147C1AE9C97700CBD7DA /* Cedar-iOS.framework */,
 				F7B293B81AE9C1B7007C0A34 /* MinesOfMios */,
-				F7B293D21AE9C1B7007C0A34 /* MinesOfMiosTests */,
+				F76D14571AE9C95D00CBD7DA /* Specs */,
 				F7B293B71AE9C1B7007C0A34 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				F7B293B61AE9C1B7007C0A34 /* MinesOfMios.app */,
-				F7B293CF1AE9C1B7007C0A34 /* MinesOfMiosTests.xctest */,
+				F76D14561AE9C95D00CBD7DA /* Specs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,11 +99,11 @@
 			children = (
 				F7B293BD1AE9C1B7007C0A34 /* AppDelegate.h */,
 				F7B293BE1AE9C1B7007C0A34 /* AppDelegate.m */,
-				F7B293C01AE9C1B7007C0A34 /* ViewController.h */,
-				F7B293C11AE9C1B7007C0A34 /* ViewController.m */,
 				F7B293C61AE9C1B7007C0A34 /* Images.xcassets */,
 				F7B293C81AE9C1B7007C0A34 /* LaunchScreen.xib */,
 				F7B293B91AE9C1B7007C0A34 /* Supporting Files */,
+				F7B293C01AE9C1B7007C0A34 /* ViewController.h */,
+				F7B293C11AE9C1B7007C0A34 /* ViewController.m */,
 				F7B293DF1AE9C2CB007C0A34 /* ViewController.xib */,
 			);
 			path = MinesOfMios;
@@ -102,26 +118,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F7B293D21AE9C1B7007C0A34 /* MinesOfMiosTests */ = {
-			isa = PBXGroup;
-			children = (
-				F7B293D51AE9C1B7007C0A34 /* MinesOfMiosTests.m */,
-				F7B293D31AE9C1B7007C0A34 /* Supporting Files */,
-			);
-			path = MinesOfMiosTests;
-			sourceTree = "<group>";
-		};
-		F7B293D31AE9C1B7007C0A34 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F7B293D41AE9C1B7007C0A34 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F76D14551AE9C95D00CBD7DA /* Specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76D14761AE9C95E00CBD7DA /* Build configuration list for PBXNativeTarget "Specs" */;
+			buildPhases = (
+				F76D14521AE9C95D00CBD7DA /* Sources */,
+				F76D14531AE9C95D00CBD7DA /* Frameworks */,
+				F76D14541AE9C95D00CBD7DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Specs;
+			productName = Specs;
+			productReference = F76D14561AE9C95D00CBD7DA /* Specs.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F7B293B51AE9C1B7007C0A34 /* MinesOfMios */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7B293D91AE9C1B7007C0A34 /* Build configuration list for PBXNativeTarget "MinesOfMios" */;
@@ -139,24 +155,6 @@
 			productReference = F7B293B61AE9C1B7007C0A34 /* MinesOfMios.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F7B293CE1AE9C1B7007C0A34 /* MinesOfMiosTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F7B293DC1AE9C1B7007C0A34 /* Build configuration list for PBXNativeTarget "MinesOfMiosTests" */;
-			buildPhases = (
-				F7B293CB1AE9C1B7007C0A34 /* Sources */,
-				F7B293CC1AE9C1B7007C0A34 /* Frameworks */,
-				F7B293CD1AE9C1B7007C0A34 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F7B293D11AE9C1B7007C0A34 /* PBXTargetDependency */,
-			);
-			name = MinesOfMiosTests;
-			productName = MinesOfMiosTests;
-			productReference = F7B293CF1AE9C1B7007C0A34 /* MinesOfMiosTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -166,12 +164,11 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "General Linear Group";
 				TargetAttributes = {
-					F7B293B51AE9C1B7007C0A34 = {
+					F76D14551AE9C95D00CBD7DA = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					F7B293CE1AE9C1B7007C0A34 = {
+					F7B293B51AE9C1B7007C0A34 = {
 						CreatedOnToolsVersion = 6.3;
-						TestTargetID = F7B293B51AE9C1B7007C0A34;
 					};
 				};
 			};
@@ -189,12 +186,22 @@
 			projectRoot = "";
 			targets = (
 				F7B293B51AE9C1B7007C0A34 /* MinesOfMios */,
-				F7B293CE1AE9C1B7007C0A34 /* MinesOfMiosTests */,
+				F76D14551AE9C95D00CBD7DA /* Specs */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F76D14541AE9C95D00CBD7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76D14801AE9C9C600CBD7DA /* Info.plist in Resources */,
+				F76D14871AE9CDBD00CBD7DA /* ViewController.xib in Resources */,
+				F76D14661AE9C95D00CBD7DA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7B293B41AE9C1B7007C0A34 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,16 +212,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7B293CD1AE9C1B7007C0A34 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F76D14521AE9C95D00CBD7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76D14861AE9CD6B00CBD7DA /* ViewController.m in Sources */,
+				F76D14811AE9C9C600CBD7DA /* main.m in Sources */,
+				F76D14831AE9CC3100CBD7DA /* ViewControllerSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7B293B21AE9C1B7007C0A34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,23 +235,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7B293CB1AE9C1B7007C0A34 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7B293D61AE9C1B7007C0A34 /* MinesOfMiosTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F7B293D11AE9C1B7007C0A34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F7B293B51AE9C1B7007C0A34 /* MinesOfMios */;
-			targetProxy = F7B293D01AE9C1B7007C0A34 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F7B293C81AE9C1B7007C0A34 /* LaunchScreen.xib */ = {
@@ -255,6 +249,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F76D14771AE9C95E00CBD7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tjarratt/git/mines-of-mios/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Specs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F76D14781AE9C95E00CBD7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tjarratt/git/mines-of-mios/Frameworks",
+				);
+				INFOPLIST_FILE = Specs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F7B293D71AE9C1B7007C0A34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -355,43 +389,17 @@
 			};
 			name = Release;
 		};
-		F7B293DD1AE9C1B7007C0A34 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MinesOfMiosTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinesOfMios.app/MinesOfMios";
-			};
-			name = Debug;
-		};
-		F7B293DE1AE9C1B7007C0A34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MinesOfMiosTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinesOfMios.app/MinesOfMios";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F76D14761AE9C95E00CBD7DA /* Build configuration list for PBXNativeTarget "Specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76D14771AE9C95E00CBD7DA /* Debug */,
+				F76D14781AE9C95E00CBD7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F7B293B11AE9C1B7007C0A34 /* Build configuration list for PBXProject "MinesOfMios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -408,14 +416,7 @@
 				F7B293DB1AE9C1B7007C0A34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F7B293DC1AE9C1B7007C0A34 /* Build configuration list for PBXNativeTarget "MinesOfMiosTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7B293DD1AE9C1B7007C0A34 /* Debug */,
-				F7B293DE1AE9C1B7007C0A34 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

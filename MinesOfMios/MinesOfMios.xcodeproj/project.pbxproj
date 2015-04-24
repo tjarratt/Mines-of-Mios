@@ -24,7 +24,53 @@
 		F7B293C71AE9C1B7007C0A34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B293C61AE9C1B7007C0A34 /* Images.xcassets */; };
 		F7B293CA1AE9C1B7007C0A34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B293C81AE9C1B7007C0A34 /* LaunchScreen.xib */; };
 		F7B293E01AE9C2CB007C0A34 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B293DF1AE9C2CB007C0A34 /* RootViewController.xib */; };
+		F7B859771AEA2960007D566F /* libUIKit+PivotalSpecHelper-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B8596E1AEA2949007D566F /* libUIKit+PivotalSpecHelper-StaticLib.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7B8596B1AEA2949007D566F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7B859601AEA2948007D566F /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEBCCC24168B999F0056EE83;
+			remoteInfo = "UIKit+PivotalCore-StaticLib";
+		};
+		F7B8596D1AEA2949007D566F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7B859601AEA2948007D566F /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEBCCC64168B9AF10056EE83;
+			remoteInfo = "UIKit+PivotalSpecHelper-StaticLib";
+		};
+		F7B8596F1AEA2949007D566F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7B859601AEA2948007D566F /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEC40C89174C203700474D2D;
+			remoteInfo = "UIKit+PivotalSpecHelperStubs-StaticLib";
+		};
+		F7B859711AEA2949007D566F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7B859601AEA2948007D566F /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEBCCC34168B99ED0056EE83;
+			remoteInfo = "UIKit-StaticLibSpec";
+		};
+		F7B859731AEA2949007D566F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7B859601AEA2948007D566F /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE118AA218D6B57000C90D6B;
+			remoteInfo = "UIKit-StaticLibSpecBundle";
+		};
+		F7B859751AEA295B007D566F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7B859601AEA2948007D566F /* UIKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AEBCCC63168B9AF10056EE83;
+			remoteInfo = "UIKit+PivotalSpecHelper-StaticLib";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F76D14561AE9C95D00CBD7DA /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +93,7 @@
 		F7B293C61AE9C1B7007C0A34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F7B293C91AE9C1B7007C0A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F7B293DF1AE9C2CB007C0A34 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		F7B859601AEA2948007D566F /* UIKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIKit.xcodeproj; path = ../Frameworks/pivotalcorekit/UIKit/UIKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B859771AEA2960007D566F /* libUIKit+PivotalSpecHelper-StaticLib.a in Frameworks */,
 				F76D14851AE9CCCC00CBD7DA /* UIKit.framework in Frameworks */,
 				F76D147D1AE9C97700CBD7DA /* Cedar-iOS.framework in Frameworks */,
 			);
@@ -93,6 +141,7 @@
 		F7B293AD1AE9C1B7007C0A34 = {
 			isa = PBXGroup;
 			children = (
+				F7B859601AEA2948007D566F /* UIKit.xcodeproj */,
 				F76D14841AE9CCCC00CBD7DA /* UIKit.framework */,
 				F76D147C1AE9C97700CBD7DA /* Cedar-iOS.framework */,
 				F7B293B81AE9C1B7007C0A34 /* MinesOfMios */,
@@ -135,6 +184,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F7B859611AEA2948007D566F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7B8596C1AEA2949007D566F /* libUIKit+PivotalCore-StaticLib.a */,
+				F7B8596E1AEA2949007D566F /* libUIKit+PivotalSpecHelper-StaticLib.a */,
+				F7B859701AEA2949007D566F /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */,
+				F7B859721AEA2949007D566F /* UIKit-StaticLibSpec.app */,
+				F7B859741AEA2949007D566F /* UIKit-StaticLibSpecBundle.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +210,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F7B859761AEA295B007D566F /* PBXTargetDependency */,
 			);
 			name = Specs;
 			productName = Specs;
@@ -200,6 +262,12 @@
 			mainGroup = F7B293AD1AE9C1B7007C0A34;
 			productRefGroup = F7B293B71AE9C1B7007C0A34 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F7B859611AEA2948007D566F /* Products */;
+					ProjectRef = F7B859601AEA2948007D566F /* UIKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F7B293B51AE9C1B7007C0A34 /* MinesOfMios */,
@@ -207,6 +275,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F7B8596C1AEA2949007D566F /* libUIKit+PivotalCore-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUIKit+PivotalCore-StaticLib.a";
+			remoteRef = F7B8596B1AEA2949007D566F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F7B8596E1AEA2949007D566F /* libUIKit+PivotalSpecHelper-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUIKit+PivotalSpecHelper-StaticLib.a";
+			remoteRef = F7B8596D1AEA2949007D566F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F7B859701AEA2949007D566F /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUIKit+PivotalSpecHelperStubs-StaticLib.a";
+			remoteRef = F7B8596F1AEA2949007D566F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F7B859721AEA2949007D566F /* UIKit-StaticLibSpec.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "UIKit-StaticLibSpec.app";
+			remoteRef = F7B859711AEA2949007D566F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F7B859741AEA2949007D566F /* UIKit-StaticLibSpecBundle.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "UIKit-StaticLibSpecBundle.octest";
+			remoteRef = F7B859731AEA2949007D566F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F76D14541AE9C95D00CBD7DA /* Resources */ = {
@@ -257,6 +363,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F7B859761AEA295B007D566F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIKit+PivotalSpecHelper-StaticLib";
+			targetProxy = F7B859751AEA295B007D566F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		F7B293C81AE9C1B7007C0A34 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
@@ -275,11 +389,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/tjarratt/git/mines-of-mios/Frameworks",
+					"$(PROJECT_DIR)/../Frameworks/**",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/../Frameworks/pivotalcorekit/UIKit/**",
 				);
 				INFOPLIST_FILE = Specs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -297,7 +416,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/tjarratt/git/mines-of-mios/Frameworks",
+					"$(PROJECT_DIR)/../Frameworks/**",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/../Frameworks/pivotalcorekit/UIKit/**",
 				);
 				INFOPLIST_FILE = Specs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -419,6 +543,7 @@
 				F76D14781AE9C95E00CBD7DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7B293B11AE9C1B7007C0A34 /* Build configuration list for PBXProject "MinesOfMios" */ = {
 			isa = XCConfigurationList;

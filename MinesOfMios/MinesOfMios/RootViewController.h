@@ -8,8 +8,6 @@
 @property (nonatomic, strong) IBOutlet UILabel *label;
 @property (nonatomic, strong) IBOutlet UIButton *button;
 
-- (IBAction)didTapBreathe:(id)sender;
-
 @end
 
 

@@ -1,4 +1,5 @@
 #import <Cedar-iOS/Cedar-iOS.h>
+#import "UIControl+Spec.h"
 
 #import "RootViewController.h"
 
@@ -35,7 +36,7 @@ describe(@"ViewController", ^{
 
     context(@"when the user taps on the button", ^{
         beforeEach(^{
-            [subject didTapBreathe:nil];
+            [subject.button tap];
         });
 
         it(@"updates the text in the label", ^{

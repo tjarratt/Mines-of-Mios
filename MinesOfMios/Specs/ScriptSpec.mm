@@ -1,4 +1,4 @@
-#import <Cedar-iOS/Cedar-iOS.h>
+#import <Cedar/Cedar.h>
 #import "Script.h"
 
 using namespace Cedar::Matchers;

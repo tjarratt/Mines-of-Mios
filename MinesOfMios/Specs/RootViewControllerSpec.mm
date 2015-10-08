@@ -1,4 +1,4 @@
-#import <Cedar-iOS/Cedar-iOS.h>
+#import <Cedar/Cedar.h>
 #import "UIControl+Spec.h"
 
 #import "RootViewController.h"

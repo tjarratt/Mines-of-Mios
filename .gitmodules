@@ -1,3 +1,6 @@
 [submodule "frameworks/pivotalcorekit"]
 	path = frameworks/pivotalcorekit
 	url = https://github.com/pivotal/PivotalCoreKit.git
+[submodule "Frameworks/cedar"]
+	path = Frameworks/cedar
+	url = git@github.com:pivotal/cedar.git

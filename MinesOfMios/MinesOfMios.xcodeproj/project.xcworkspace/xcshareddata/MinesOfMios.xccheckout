@@ -22,7 +22,7 @@
 		<key>007EF1D9CF505F3ADE02A6C29B02F893463AA0A9</key>
 		<string>../../..</string>
 		<key>8E3EABAC3DEB540C429B3EF995370DAC6D10823F</key>
-		<string>../../../Frameworks/pivotalcorekit/</string>
+		<string>../../..Frameworks/pivotalcorekit</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:tjarratt/Mines-of-Mios.git</string>

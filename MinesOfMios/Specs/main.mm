@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Cedar-iOS/Cedar-iOS.h>
-
-#import "AppDelegate.h"
+#import <Cedar/Cedar.h>
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {

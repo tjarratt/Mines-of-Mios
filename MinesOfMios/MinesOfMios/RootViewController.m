@@ -1,4 +1,5 @@
 #import "RootViewController.h"
+#import "TableSomethingTableViewController.h"
 #import "Script.h"
 
 @interface RootViewController ()
@@ -30,4 +31,10 @@
 - (IBAction)didTapBreathe:(id)sender {
     self.label.text = self.script.advance;
 }
+
+- (IBAction)didTapDrinkMe:(id)sender {
+    UIViewController *newViewController = [[TableSomethingTableViewController alloc] init];
+    [self presentViewController:newViewController animated:YES completion:nil];
+}
+
 @end

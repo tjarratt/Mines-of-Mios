@@ -1,0 +1,2 @@
+github "cedarbdd/cedar" "v1.0"
+github "pivotal-legacy/pivotalcorekit" "v0.3.6"

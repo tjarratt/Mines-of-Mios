@@ -7,173 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F72B47E220AC16B600F31A8E /* TableSomethingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B47E020AC16B600F31A8E /* TableSomethingTableViewController.m */; };
+		F72B47E320AC16B600F31A8E /* TableSomethingTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72B47E120AC16B600F31A8E /* TableSomethingTableViewController.xib */; };
 		F76D14661AE9C95D00CBD7DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76D14651AE9C95D00CBD7DA /* Images.xcassets */; };
-		F76D14801AE9C9C600CBD7DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F76D147E1AE9C9C600CBD7DA /* Info.plist */; };
 		F76D14811AE9C9C600CBD7DA /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = F76D147F1AE9C9C600CBD7DA /* main.mm */; };
 		F76D14831AE9CC3100CBD7DA /* RootViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F76D14821AE9CC3100CBD7DA /* RootViewControllerSpec.mm */; };
-		F76D14851AE9CCCC00CBD7DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76D14841AE9CCCC00CBD7DA /* UIKit.framework */; };
 		F76D14861AE9CD6B00CBD7DA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293C11AE9C1B7007C0A34 /* RootViewController.m */; };
 		F76D14871AE9CDBD00CBD7DA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B293DF1AE9C2CB007C0A34 /* RootViewController.xib */; };
 		F76D148B1AE9D31200CBD7DA /* Script.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D148A1AE9D31200CBD7DA /* Script.m */; };
 		F76D148C1AE9D31200CBD7DA /* Script.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D148A1AE9D31200CBD7DA /* Script.m */; };
 		F76D148E1AE9D32800CBD7DA /* ScriptSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F76D148D1AE9D32800CBD7DA /* ScriptSpec.mm */; };
-		F78BDE891BC62F4C00AFB7D9 /* Cedar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78BDE841BC62F2E00AFB7D9 /* Cedar.framework */; };
 		F7B293BC1AE9C1B7007C0A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293BB1AE9C1B7007C0A34 /* main.m */; };
 		F7B293BF1AE9C1B7007C0A34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293BE1AE9C1B7007C0A34 /* AppDelegate.m */; };
 		F7B293C21AE9C1B7007C0A34 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B293C11AE9C1B7007C0A34 /* RootViewController.m */; };
 		F7B293C71AE9C1B7007C0A34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B293C61AE9C1B7007C0A34 /* Images.xcassets */; };
 		F7B293CA1AE9C1B7007C0A34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B293C81AE9C1B7007C0A34 /* LaunchScreen.xib */; };
 		F7B293E01AE9C2CB007C0A34 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B293DF1AE9C2CB007C0A34 /* RootViewController.xib */; };
-		F7B859771AEA2960007D566F /* libUIKit+PivotalSpecHelper-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B8596E1AEA2949007D566F /* libUIKit+PivotalSpecHelper-StaticLib.a */; };
+		F7D9343B20C1C7630051BAF8 /* TableSomethingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B47E020AC16B600F31A8E /* TableSomethingTableViewController.m */; };
+		F7D9343C20C1C76A0051BAF8 /* TableSomethingTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72B47E120AC16B600F31A8E /* TableSomethingTableViewController.xib */; };
+		F7D9344420C1C8280051BAF8 /* MinesOfMiosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D9344320C1C8280051BAF8 /* MinesOfMiosTests.m */; };
+		F7D9344D20C1C9440051BAF8 /* RootViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F76D14821AE9CC3100CBD7DA /* RootViewControllerSpec.mm */; };
+		F7D9344E20C1C9440051BAF8 /* ScriptSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F76D148D1AE9D32800CBD7DA /* ScriptSpec.mm */; };
+		F7E4DFAE20D9BDAD00D5F69A /* Cedar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E4DFAC20D9BD8900D5F69A /* Cedar.framework */; };
+		F7E4DFAF20D9BDAF00D5F69A /* Cedar.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7E4DFAC20D9BD8900D5F69A /* Cedar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7E4DFB020D9BDB700D5F69A /* Cedar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E4DFAC20D9BD8900D5F69A /* Cedar.framework */; };
+		F7E4DFB120D9BDBA00D5F69A /* Cedar.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F7E4DFAC20D9BD8900D5F69A /* Cedar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7E4DFB420D9BDE000D5F69A /* UIKit_PivotalSpecHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E4DFB220D9BDCC00D5F69A /* UIKit_PivotalSpecHelper.framework */; };
+		F7E4DFB520D9BDE200D5F69A /* UIKit_PivotalSpecHelper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7E4DFB220D9BDCC00D5F69A /* UIKit_PivotalSpecHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7E4DFB620D9BDF900D5F69A /* UIKit_PivotalSpecHelper.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F7E4DFB220D9BDCC00D5F69A /* UIKit_PivotalSpecHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7E4DFB720D9BDFC00D5F69A /* UIKit_PivotalSpecHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E4DFB220D9BDCC00D5F69A /* UIKit_PivotalSpecHelper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F78BDE6F1BC62F2E00AFB7D9 /* PBXContainerItemProxy */ = {
+		F7D9344620C1C8280051BAF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AEEE1FB611DC271300029872;
-			remoteInfo = Cedar;
-		};
-		F78BDE711BC62F2E00AFB7D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AEEE218611DC28E200029872;
-			remoteInfo = "Cedar OS X Specs";
-		};
-		F78BDE731BC62F2E00AFB7D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96A07F0813F276640021974D;
-			remoteInfo = "Cedar OS X FocusedSpecs";
-		};
-		F78BDE751BC62F2E00AFB7D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AEEE222911DC2B0600029872;
-			remoteInfo = "Cedar-StaticLib";
-		};
-		F78BDE771BC62F2E00AFB7D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AEEE227611DC2CF900029872;
-			remoteInfo = "Cedar-StaticLib Specs";
-		};
-		F78BDE791BC62F2E00AFB7D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AE02E7E4184EABCD00414F19;
-			remoteInfo = "Cedar-iOS StaticFrameworkSpecs";
-		};
-		F78BDE7B1BC62F2E00AFB7D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96B5F9F6144A81A7000A6A5D;
-			remoteInfo = "Cedar iOS Host App";
-		};
-		F78BDE7D1BC62F2E00AFB7D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1F45A3DD180E4796003C1E36;
-			remoteInfo = "Cedar iOS XCTest Tests";
-		};
-		F78BDE7F1BC62F2E00AFB7D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AE248F9819DCD52500092C14;
-			remoteInfo = "Cedar OS X Host App";
-		};
-		F78BDE811BC62F2E00AFB7D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AE248FAA19DCD52500092C14;
-			remoteInfo = "Cedar OS X Host AppTests";
-		};
-		F78BDE831BC62F2E00AFB7D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AE4864F81B067620005DB302;
-			remoteInfo = "Cedar-iOS-Framework";
-		};
-		F78BDE851BC62F2E00AFB7D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AE03FBE91B06C33B00013784;
-			remoteInfo = "Cedar-iOS-Framework Specs";
-		};
-		F78BDE871BC62F4000AFB7D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */;
+			containerPortal = F7B293AE1AE9C1B7007C0A34 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AE4864F71B067620005DB302;
-			remoteInfo = "Cedar-iOS-Framework";
-		};
-		F7B8596B1AEA2949007D566F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7B859601AEA2948007D566F /* UIKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AEBCCC24168B999F0056EE83;
-			remoteInfo = "UIKit+PivotalCore-StaticLib";
-		};
-		F7B8596D1AEA2949007D566F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7B859601AEA2948007D566F /* UIKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AEBCCC64168B9AF10056EE83;
-			remoteInfo = "UIKit+PivotalSpecHelper-StaticLib";
-		};
-		F7B8596F1AEA2949007D566F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7B859601AEA2948007D566F /* UIKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AEC40C89174C203700474D2D;
-			remoteInfo = "UIKit+PivotalSpecHelperStubs-StaticLib";
-		};
-		F7B859711AEA2949007D566F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7B859601AEA2948007D566F /* UIKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AEBCCC34168B99ED0056EE83;
-			remoteInfo = "UIKit-StaticLibSpec";
-		};
-		F7B859731AEA2949007D566F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7B859601AEA2948007D566F /* UIKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AE118AA218D6B57000C90D6B;
-			remoteInfo = "UIKit-StaticLibSpecBundle";
-		};
-		F7B859751AEA295B007D566F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7B859601AEA2948007D566F /* UIKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = AEBCCC63168B9AF10056EE83;
-			remoteInfo = "UIKit+PivotalSpecHelper-StaticLib";
+			remoteGlobalIDString = F7B293B51AE9C1B7007C0A34;
+			remoteInfo = MinesOfMios;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F7D9343920C1C7190051BAF8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F7E4DFAF20D9BDAF00D5F69A /* Cedar.framework in CopyFiles */,
+				F7E4DFB520D9BDE200D5F69A /* UIKit_PivotalSpecHelper.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D9344F20C1C9650051BAF8 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F7E4DFB120D9BDBA00D5F69A /* Cedar.framework in Copy Frameworks */,
+				F7E4DFB620D9BDF900D5F69A /* UIKit_PivotalSpecHelper.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D968F820C89C2E00CEF960 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F72B47DF20AC16B600F31A8E /* TableSomethingTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableSomethingTableViewController.h; sourceTree = "<group>"; };
+		F72B47E020AC16B600F31A8E /* TableSomethingTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableSomethingTableViewController.m; sourceTree = "<group>"; };
+		F72B47E120AC16B600F31A8E /* TableSomethingTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableSomethingTableViewController.xib; sourceTree = "<group>"; };
 		F76D14561AE9C95D00CBD7DA /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76D14651AE9C95D00CBD7DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F76D147E1AE9C9C600CBD7DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F76D147F1AE9C9C600CBD7DA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		F76D14821AE9CC3100CBD7DA /* RootViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewControllerSpec.mm; sourceTree = "<group>"; };
-		F76D14841AE9CCCC00CBD7DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F76D14891AE9D31200CBD7DA /* Script.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Script.h; sourceTree = "<group>"; };
 		F76D148A1AE9D31200CBD7DA /* Script.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Script.m; sourceTree = "<group>"; };
 		F76D148D1AE9D32800CBD7DA /* ScriptSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScriptSpec.mm; sourceTree = "<group>"; };
-		F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = ../Frameworks/cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
 		F7B293B61AE9C1B7007C0A34 /* MinesOfMios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinesOfMios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B293BA1AE9C1B7007C0A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B293BB1AE9C1B7007C0A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -184,7 +106,11 @@
 		F7B293C61AE9C1B7007C0A34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F7B293C91AE9C1B7007C0A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F7B293DF1AE9C2CB007C0A34 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
-		F7B859601AEA2948007D566F /* UIKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIKit.xcodeproj; path = ../Frameworks/pivotalcorekit/UIKit/UIKit.xcodeproj; sourceTree = "<group>"; };
+		F7D9344120C1C8280051BAF8 /* MinesOfMiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinesOfMiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D9344320C1C8280051BAF8 /* MinesOfMiosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinesOfMiosTests.m; sourceTree = "<group>"; };
+		F7D9344520C1C8280051BAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E4DFAC20D9BD8900D5F69A /* Cedar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cedar.framework; path = ../Carthage/Build/iOS/Cedar.framework; sourceTree = "<group>"; };
+		F7E4DFB220D9BDCC00D5F69A /* UIKit_PivotalSpecHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit_PivotalSpecHelper.framework; path = ../Carthage/Build/iOS/UIKit_PivotalSpecHelper.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,9 +118,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F78BDE891BC62F4C00AFB7D9 /* Cedar.framework in Frameworks */,
-				F7B859771AEA2960007D566F /* libUIKit+PivotalSpecHelper-StaticLib.a in Frameworks */,
-				F76D14851AE9CCCC00CBD7DA /* UIKit.framework in Frameworks */,
+				F7E4DFAE20D9BDAD00D5F69A /* Cedar.framework in Frameworks */,
+				F7E4DFB420D9BDE000D5F69A /* UIKit_PivotalSpecHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,9 +130,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7D9343E20C1C8280051BAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E4DFB020D9BDB700D5F69A /* Cedar.framework in Frameworks */,
+				F7E4DFB720D9BDFC00D5F69A /* UIKit_PivotalSpecHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F72B47D820AC156200F31A8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F76D14571AE9C95D00CBD7DA /* Specs */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,42 +170,24 @@
 			name = Domain;
 			sourceTree = "<group>";
 		};
-		F78BDE5E1BC62F0C00AFB7D9 /* Externals */ = {
+		F78BDE5E1BC62F0C00AFB7D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */,
+				F7E4DFB220D9BDCC00D5F69A /* UIKit_PivotalSpecHelper.framework */,
+				F7E4DFAC20D9BD8900D5F69A /* Cedar.framework */,
 			);
-			name = Externals;
-			sourceTree = "<group>";
-		};
-		F78BDE601BC62F2E00AFB7D9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F78BDE701BC62F2E00AFB7D9 /* Cedar.framework */,
-				F78BDE721BC62F2E00AFB7D9 /* Cedar OS X Specs */,
-				F78BDE741BC62F2E00AFB7D9 /* Cedar OS X FocusedSpecs */,
-				F78BDE761BC62F2E00AFB7D9 /* libCedar-StaticLib.a */,
-				F78BDE781BC62F2E00AFB7D9 /* Cedar-StaticLib Specs.app */,
-				F78BDE7A1BC62F2E00AFB7D9 /* Cedar-iOS StaticFrameworkSpecs.app */,
-				F78BDE7C1BC62F2E00AFB7D9 /* Cedar iOS Host App.app */,
-				F78BDE7E1BC62F2E00AFB7D9 /* XCUnitAppTests.xctest */,
-				F78BDE801BC62F2E00AFB7D9 /* Cedar OS X Host App.app */,
-				F78BDE821BC62F2E00AFB7D9 /* Cedar OS X Host AppTests.xctest */,
-				F78BDE841BC62F2E00AFB7D9 /* Cedar.framework */,
-				F78BDE861BC62F2E00AFB7D9 /* Cedar-iOS-Framework Specs.app */,
-			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F7B293AD1AE9C1B7007C0A34 = {
 			isa = PBXGroup;
 			children = (
-				F78BDE5E1BC62F0C00AFB7D9 /* Externals */,
-				F7B859601AEA2948007D566F /* UIKit.xcodeproj */,
-				F76D14841AE9CCCC00CBD7DA /* UIKit.framework */,
+				F78BDE5E1BC62F0C00AFB7D9 /* Frameworks */,
 				F7B293B81AE9C1B7007C0A34 /* MinesOfMios */,
 				F76D14571AE9C95D00CBD7DA /* Specs */,
+				F7D9344220C1C8280051BAF8 /* TestBundle */,
 				F7B293B71AE9C1B7007C0A34 /* Products */,
+				F72B47D820AC156200F31A8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -273,6 +196,7 @@
 			children = (
 				F7B293B61AE9C1B7007C0A34 /* MinesOfMios.app */,
 				F76D14561AE9C95D00CBD7DA /* Specs.app */,
+				F7D9344120C1C8280051BAF8 /* MinesOfMiosTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -289,6 +213,9 @@
 				F7B293C01AE9C1B7007C0A34 /* RootViewController.h */,
 				F7B293C11AE9C1B7007C0A34 /* RootViewController.m */,
 				F7B293DF1AE9C2CB007C0A34 /* RootViewController.xib */,
+				F72B47DF20AC16B600F31A8E /* TableSomethingTableViewController.h */,
+				F72B47E020AC16B600F31A8E /* TableSomethingTableViewController.m */,
+				F72B47E120AC16B600F31A8E /* TableSomethingTableViewController.xib */,
 			);
 			path = MinesOfMios;
 			sourceTree = "<group>";
@@ -302,16 +229,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F7B859611AEA2948007D566F /* Products */ = {
+		F7D9344220C1C8280051BAF8 /* TestBundle */ = {
 			isa = PBXGroup;
 			children = (
-				F7B8596C1AEA2949007D566F /* libUIKit+PivotalCore-StaticLib.a */,
-				F7B8596E1AEA2949007D566F /* libUIKit+PivotalSpecHelper-StaticLib.a */,
-				F7B859701AEA2949007D566F /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */,
-				F7B859721AEA2949007D566F /* UIKit-StaticLibSpec.app */,
-				F7B859741AEA2949007D566F /* UIKit-StaticLibSpecBundle.octest */,
+				F7D9344320C1C8280051BAF8 /* MinesOfMiosTests.m */,
+				F7D9344520C1C8280051BAF8 /* Info.plist */,
 			);
-			name = Products;
+			path = TestBundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,12 +248,11 @@
 				F76D14521AE9C95D00CBD7DA /* Sources */,
 				F76D14531AE9C95D00CBD7DA /* Frameworks */,
 				F76D14541AE9C95D00CBD7DA /* Resources */,
+				F7D9343920C1C7190051BAF8 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F78BDE881BC62F4000AFB7D9 /* PBXTargetDependency */,
-				F7B859761AEA295B007D566F /* PBXTargetDependency */,
 			);
 			name = Specs;
 			productName = Specs;
@@ -343,6 +266,7 @@
 				F7B293B21AE9C1B7007C0A34 /* Sources */,
 				F7B293B31AE9C1B7007C0A34 /* Frameworks */,
 				F7B293B41AE9C1B7007C0A34 /* Resources */,
+				F7D968F820C89C2E00CEF960 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -352,6 +276,24 @@
 			productName = MinesOfMios;
 			productReference = F7B293B61AE9C1B7007C0A34 /* MinesOfMios.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F7D9344020C1C8280051BAF8 /* MinesOfMiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D9344820C1C8280051BAF8 /* Build configuration list for PBXNativeTarget "MinesOfMiosTests" */;
+			buildPhases = (
+				F7D9343D20C1C8280051BAF8 /* Sources */,
+				F7D9343E20C1C8280051BAF8 /* Frameworks */,
+				F7D9344F20C1C9650051BAF8 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D9344720C1C8280051BAF8 /* PBXTargetDependency */,
+			);
+			name = MinesOfMiosTests;
+			productName = MinesOfMiosTests;
+			productReference = F7D9344120C1C8280051BAF8 /* MinesOfMiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -367,6 +309,12 @@
 					};
 					F7B293B51AE9C1B7007C0A34 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = XAN2GRZS9J;
+					};
+					F7D9344020C1C8280051BAF8 = {
+						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7B293B51AE9C1B7007C0A34;
 					};
 				};
 			};
@@ -381,154 +329,23 @@
 			mainGroup = F7B293AD1AE9C1B7007C0A34;
 			productRefGroup = F7B293B71AE9C1B7007C0A34 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = F78BDE601BC62F2E00AFB7D9 /* Products */;
-					ProjectRef = F78BDE5F1BC62F2E00AFB7D9 /* Cedar.xcodeproj */;
-				},
-				{
-					ProductGroup = F7B859611AEA2948007D566F /* Products */;
-					ProjectRef = F7B859601AEA2948007D566F /* UIKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				F7B293B51AE9C1B7007C0A34 /* MinesOfMios */,
 				F76D14551AE9C95D00CBD7DA /* Specs */,
+				F7D9344020C1C8280051BAF8 /* MinesOfMiosTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		F78BDE701BC62F2E00AFB7D9 /* Cedar.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Cedar.framework;
-			remoteRef = F78BDE6F1BC62F2E00AFB7D9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F78BDE721BC62F2E00AFB7D9 /* Cedar OS X Specs */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "Cedar OS X Specs";
-			remoteRef = F78BDE711BC62F2E00AFB7D9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F78BDE741BC62F2E00AFB7D9 /* Cedar OS X FocusedSpecs */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "Cedar OS X FocusedSpecs";
-			remoteRef = F78BDE731BC62F2E00AFB7D9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F78BDE761BC62F2E00AFB7D9 /* libCedar-StaticLib.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libCedar-StaticLib.a";
-			remoteRef = F78BDE751BC62F2E00AFB7D9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F78BDE781BC62F2E00AFB7D9 /* Cedar-StaticLib Specs.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Cedar-StaticLib Specs.app";
-			remoteRef = F78BDE771BC62F2E00AFB7D9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F78BDE7A1BC62F2E00AFB7D9 /* Cedar-iOS StaticFrameworkSpecs.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Cedar-iOS StaticFrameworkSpecs.app";
-			remoteRef = F78BDE791BC62F2E00AFB7D9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F78BDE7C1BC62F2E00AFB7D9 /* Cedar iOS Host App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Cedar iOS Host App.app";
-			remoteRef = F78BDE7B1BC62F2E00AFB7D9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F78BDE7E1BC62F2E00AFB7D9 /* XCUnitAppTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = XCUnitAppTests.xctest;
-			remoteRef = F78BDE7D1BC62F2E00AFB7D9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F78BDE801BC62F2E00AFB7D9 /* Cedar OS X Host App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Cedar OS X Host App.app";
-			remoteRef = F78BDE7F1BC62F2E00AFB7D9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F78BDE821BC62F2E00AFB7D9 /* Cedar OS X Host AppTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Cedar OS X Host AppTests.xctest";
-			remoteRef = F78BDE811BC62F2E00AFB7D9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F78BDE841BC62F2E00AFB7D9 /* Cedar.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Cedar.framework;
-			remoteRef = F78BDE831BC62F2E00AFB7D9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F78BDE861BC62F2E00AFB7D9 /* Cedar-iOS-Framework Specs.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Cedar-iOS-Framework Specs.app";
-			remoteRef = F78BDE851BC62F2E00AFB7D9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F7B8596C1AEA2949007D566F /* libUIKit+PivotalCore-StaticLib.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libUIKit+PivotalCore-StaticLib.a";
-			remoteRef = F7B8596B1AEA2949007D566F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F7B8596E1AEA2949007D566F /* libUIKit+PivotalSpecHelper-StaticLib.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libUIKit+PivotalSpecHelper-StaticLib.a";
-			remoteRef = F7B8596D1AEA2949007D566F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F7B859701AEA2949007D566F /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libUIKit+PivotalSpecHelperStubs-StaticLib.a";
-			remoteRef = F7B8596F1AEA2949007D566F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F7B859721AEA2949007D566F /* UIKit-StaticLibSpec.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "UIKit-StaticLibSpec.app";
-			remoteRef = F7B859711AEA2949007D566F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F7B859741AEA2949007D566F /* UIKit-StaticLibSpecBundle.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "UIKit-StaticLibSpecBundle.octest";
-			remoteRef = F7B859731AEA2949007D566F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F76D14541AE9C95D00CBD7DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F76D14801AE9C9C600CBD7DA /* Info.plist in Resources */,
 				F76D14871AE9CDBD00CBD7DA /* RootViewController.xib in Resources */,
 				F76D14661AE9C95D00CBD7DA /* Images.xcassets in Resources */,
+				F7D9343C20C1C76A0051BAF8 /* TableSomethingTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +356,7 @@
 				F7B293CA1AE9C1B7007C0A34 /* LaunchScreen.xib in Resources */,
 				F7B293E01AE9C2CB007C0A34 /* RootViewController.xib in Resources */,
 				F7B293C71AE9C1B7007C0A34 /* Images.xcassets in Resources */,
+				F72B47E320AC16B600F31A8E /* TableSomethingTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +370,7 @@
 				F76D148E1AE9D32800CBD7DA /* ScriptSpec.mm in Sources */,
 				F76D148C1AE9D31200CBD7DA /* Script.m in Sources */,
 				F76D14861AE9CD6B00CBD7DA /* RootViewController.m in Sources */,
+				F7D9343B20C1C7630051BAF8 /* TableSomethingTableViewController.m in Sources */,
 				F76D14811AE9C9C600CBD7DA /* main.mm in Sources */,
 				F76D14831AE9CC3100CBD7DA /* RootViewControllerSpec.mm in Sources */,
 			);
@@ -564,22 +383,28 @@
 				F76D148B1AE9D31200CBD7DA /* Script.m in Sources */,
 				F7B293C21AE9C1B7007C0A34 /* RootViewController.m in Sources */,
 				F7B293BF1AE9C1B7007C0A34 /* AppDelegate.m in Sources */,
+				F72B47E220AC16B600F31A8E /* TableSomethingTableViewController.m in Sources */,
 				F7B293BC1AE9C1B7007C0A34 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D9343D20C1C8280051BAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D9344D20C1C9440051BAF8 /* RootViewControllerSpec.mm in Sources */,
+				F7D9344E20C1C9440051BAF8 /* ScriptSpec.mm in Sources */,
+				F7D9344420C1C8280051BAF8 /* MinesOfMiosTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F78BDE881BC62F4000AFB7D9 /* PBXTargetDependency */ = {
+		F7D9344720C1C8280051BAF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Cedar-iOS-Framework";
-			targetProxy = F78BDE871BC62F4000AFB7D9 /* PBXContainerItemProxy */;
-		};
-		F7B859761AEA295B007D566F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "UIKit+PivotalSpecHelper-StaticLib";
-			targetProxy = F7B859751AEA295B007D566F /* PBXContainerItemProxy */;
+			target = F7B293B51AE9C1B7007C0A34 /* MinesOfMios */;
+			targetProxy = F7D9344620C1C8280051BAF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -601,7 +426,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../Frameworks/**",
+					"$(PROJECT_DIR)/../Carthage/Build/iOS",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -610,10 +435,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(PROJECT_DIR)/../Frameworks/pivotalcorekit/UIKit/**",
+					"$(PROJECT_DIR)/../Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Specs/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -629,15 +454,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../Frameworks/**",
+					"$(PROJECT_DIR)/../Carthage/Build/iOS",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(PROJECT_DIR)/../Frameworks/pivotalcorekit/UIKit/**",
+					"$(PROJECT_DIR)/../Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Specs/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -731,10 +556,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XAN2GRZS9J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MinesOfMios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/tjarratt/workspace/Mines-of-Mios/Frameworks/pivotalcorekit/**";
 			};
 			name = Debug;
 		};
@@ -742,10 +573,104 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XAN2GRZS9J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MinesOfMios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/tjarratt/workspace/Mines-of-Mios/Frameworks/pivotalcorekit/**";
+			};
+			name = Release;
+		};
+		F7D9344920C1C8280051BAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/../Carthage/Build/iOS/**",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
+				INFOPLIST_FILE = TestBundle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.general.linear.group.MinesOfMiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinesOfMios.app/MinesOfMios";
+			};
+			name = Debug;
+		};
+		F7D9344A20C1C8280051BAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/../Carthage/Build/iOS/**",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
+				INFOPLIST_FILE = TestBundle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.general.linear.group.MinesOfMiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinesOfMios.app/MinesOfMios";
 			};
 			name = Release;
 		};
@@ -775,6 +700,15 @@
 			buildConfigurations = (
 				F7B293DA1AE9C1B7007C0A34 /* Debug */,
 				F7B293DB1AE9C1B7007C0A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D9344820C1C8280051BAF8 /* Build configuration list for PBXNativeTarget "MinesOfMiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D9344920C1C8280051BAF8 /* Debug */,
+				F7D9344A20C1C8280051BAF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

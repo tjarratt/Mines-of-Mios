@@ -1,5 +1,5 @@
 #import <Cedar/Cedar.h>
-#import "UIControl+Spec.h"
+#import <UIKit_PivotalSpecHelper/UIControl+Spec.h>
 
 #import "RootViewController.h"
 
@@ -8,7 +8,7 @@ using namespace Cedar::Doubles;
 
 SPEC_BEGIN(RootViewControllerSpec)
 
-describe(@"ViewController", ^{
+describe(@"RootViewController", ^{
     __block RootViewController *subject;
     __block Script *script;
 

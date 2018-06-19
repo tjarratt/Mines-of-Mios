@@ -204,15 +204,13 @@
 		F7B293B81AE9C1B7007C0A34 /* MinesOfMios */ = {
 			isa = PBXGroup;
 			children = (
-				F76D14881AE9D2DA00CBD7DA /* Domain */,
 				F7B293BD1AE9C1B7007C0A34 /* AppDelegate.h */,
 				F7B293BE1AE9C1B7007C0A34 /* AppDelegate.m */,
-				F7B293C61AE9C1B7007C0A34 /* Images.xcassets */,
-				F7B293C81AE9C1B7007C0A34 /* LaunchScreen.xib */,
-				F7B293B91AE9C1B7007C0A34 /* Supporting Files */,
+				F76D14881AE9D2DA00CBD7DA /* Domain */,
 				F7B293C01AE9C1B7007C0A34 /* RootViewController.h */,
 				F7B293C11AE9C1B7007C0A34 /* RootViewController.m */,
 				F7B293DF1AE9C2CB007C0A34 /* RootViewController.xib */,
+				F7B293B91AE9C1B7007C0A34 /* Supporting Files */,
 				F72B47DF20AC16B600F31A8E /* TableSomethingTableViewController.h */,
 				F72B47E020AC16B600F31A8E /* TableSomethingTableViewController.m */,
 				F72B47E120AC16B600F31A8E /* TableSomethingTableViewController.xib */,
@@ -223,6 +221,8 @@
 		F7B293B91AE9C1B7007C0A34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F7B293C61AE9C1B7007C0A34 /* Images.xcassets */,
+				F7B293C81AE9C1B7007C0A34 /* LaunchScreen.xib */,
 				F7B293BA1AE9C1B7007C0A34 /* Info.plist */,
 				F7B293BB1AE9C1B7007C0A34 /* main.m */,
 			);

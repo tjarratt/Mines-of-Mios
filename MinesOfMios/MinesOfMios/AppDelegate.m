@@ -14,7 +14,13 @@
     self.window = window;
     [self.window makeKeyAndVisible];
 
-    NSArray *messages = @[@"The last thing you remember is the sound of rocks falling all around you.", @"Your arm is pinned, but you can hear rumbling noises in the distance"];
+    NSArray *messages = @[
+                          @"The last thing you remember is the sound of rocks falling all around you.",
+                          @"Your arm is pinned, but you can hear rumbling noises in the distance",
+                          @"Wouldn't it be nice if this had a happy ending ?",
+                          @"Wouldn't it be nice if Tim had wrote a complete script ?",
+                          @"Well I hope you aren't disappointed when this abruptly ends in a way that no one could possib..."
+                          ];
     Script *script = [[Script alloc] initWithMessages:messages];
 
     RootViewController *viewController = [[RootViewController alloc] initWithScript:script];

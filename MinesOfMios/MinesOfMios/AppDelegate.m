@@ -2,7 +2,6 @@
 #import "RootViewController.h"
 
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
